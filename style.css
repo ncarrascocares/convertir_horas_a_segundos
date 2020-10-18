@@ -1,0 +1,58 @@
+
+body{
+    /*Formato a todo el texto que este dentro del body del html*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Formato a todo lo que se encuentra del div con id=container*/
+#container{
+    background: #de4463;
+    padding: 10px;
+    width: 295px;
+    border-radius: 5px;
+    font-size: 1.4em;
+}
+
+/*Formato a todo lo que se encuentra del div con id=hora*/
+#hora{
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Formato a todo lo que se encuentra del div con id=btn*/
+#btn{
+    background: rgb(255,255,255);
+    color: #000;
+    outline: none;
+    border: none;
+    transition: .5s;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+/*el comando hover nos permite dar acción a la etiqueta con id=btn
+al pasar el puntero sobre esta etiqueta, está cambiara de color
+*/
+#btn:hover{
+    background: #edc988;
+    color: #000;
+}
+
+#btn:active{
+    transform: translateY(5px);
+}
+
+#resultado{
+    border-radius: 5px;
+    display: none;
+    background: #edc988;
+    color: black;
+    width: 295px;
+    padding: 10px;
+    margin-top: 10px;
+}
